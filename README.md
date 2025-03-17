@@ -4,13 +4,15 @@
 
 ## Installation
 
+Install [asdf](https://asdf-vm.com) version manager according to its instructions: [Getting started](https://asdf-vm.com/guide/getting-started.html).
+
 To install `fish-asdf`, you need to have `fisher` installed. If you don't have `fisher`, you can install it by running:
 
 ```fish
-curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
+curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
 ```
 
-Once `fisher` is installed, you can add the `fish-asdf` plugin by running:
+Once [fisher](https://github.com/jorgebucaran/fisher) is installed, you can add the `fish-asdf` plugin by running:
 
 ```fish
 fisher install seru/fish-asdf
