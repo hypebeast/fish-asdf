@@ -15,7 +15,7 @@ curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fi
 Once [fisher](https://github.com/jorgebucaran/fisher) is installed, you can add the `fish-asdf` plugin by running:
 
 ```fish
-fisher install seru/fish-asdf
+fisher install hypebeast/fish-asdf
 ```
 
 ## What does this plugin do?
